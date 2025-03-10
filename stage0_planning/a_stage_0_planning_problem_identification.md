@@ -7,13 +7,13 @@
 >	Here you will briefly explain the domain of the problem you identified, briefly identify general challenges and, then, state you problem
 
 # Context
-[What is the context for your work. What area of application. It can be travelling, pet treatment, shopping. State the overall context and why it is interesting to think about it.]
+O afastamento da população à política é um problema crescente em Portugal. O excesso de informação densa e tendenciosa, a complexidade política e a sensação de distância dos representantes geram desinteresse e desconfiança. Este projeto foca-se na educação cívica(exposição de informação) e participação política, promovendo transparência, clareza e envolvimento ativo num cenário de desinformação e ceticismo.
 
 # Challenges
-[What are aspects that remain a challenge? What is difficult to do? What could profit from a more customizable approach?]
+Simplificar conteúdos complexos (como a Constituição e processos legislativos) para o público geral, manter o engajamento além dos períodos eleitorais, adaptar a experiência do usuário a diferentes perfis e integrar dados de forma eficiente.
 
 # The goal
-[In a short sentence state what is the problem you wish to address]
+Reduzir o afastamento cívico por meio de uma plataforma clara, acessível e interativa que incentive a educação cívica e a participação democrática.
 
 
 [Back to main Logbook Page](hci_logbook.md)
