@@ -46,16 +46,24 @@
 
 # Scenarios
 
+## Scenario 1: Carolina tenta encontrar informação 
+Carolina está num momento de frustração após um longo dia de estudos. Ao tentar entender um conceito de política internacional para um exame, ela percebe que os materiais académicos não estão claros o suficiente para ela. Então, decide *aceder ao site* dedicado à política portuguesa, que ela já conhecia, mas ainda não tinha explorado a fundo.
 
-## Scenario 1: Maria goes on a Museum Tour
+Ao entrar no site, ela vê um menu com várias opções, e decide começar pela seção *"Temas Políticos"*. Ela encontra um artigo sobre *"Sistema Político e Governança"*, que oferece uma explicação simples sobre como os partidos e os órgãos do governo funcionam em Portugal, com exemplos de contextos históricos. A linguagem do artigo é clara, com gráficos explicativos e vídeos curtos que quebram o conteúdo em pedaços.Para complementar o seu entendimento, explora um link sobre *"Partidos Políticos"*, onde aprende sobre as ideologias predominantes, e como influenciam as políticas públicas.
 
-[Maria had always loved modern art, but she often found museum visits overwhelming—so many exhibits, so much information, and little guidance on where to start. Today, she was visiting a contemporary art museum that had recently introduced an **interactive guide**.  ]
+Com isso, Carolina sente que tem uma compreensão mais sólida do que a aula e os livros ofereciam até então. Ela sente que, finalmente, não está perdida no meio de conceitos difíceis.
 
-[As she entered the museum, Maria received a notification on her phone, reminding her to launch the app. She opened it and was greeted with a personalized welcome screen. The system, aware of her general interests in **digital media and abstract art**, suggested a self-guided tour tailored to her preferences.  ]
+## Scenario 2: Carolina tem dúvidas sobre um certo conceito
+Carolina está interessada em aprender mais sobre política para poder acompanhar os debates nas aulas. Para isso, decide procurar informações confiáveis na internet. Ela está a estudar para um exame sobre *sistemas eleitorais* e precisa entender como funciona o *método de Hondt*, utilizado em Portugal para distribuir mandatos parlamentares. Carolina acessa a seção *Temas Políticos* do site e pesquisa por *"método de Hondt"*. No entanto, os resultados retornados são muito técnicos e não atendem ao nível de compreensão dela. Tentando uma nova abordagem, ela entra na seção *Como Votar*, mas não encontra informações detalhadas sobre o método que procura.Como não conseguiu encontrar a informação necessária, Carolina decide *recorrer ao Fórum*. Ela navega até a *Área de Discussão* e clica em *"Criar Novo Tópico"*. No título, escreve: *"Como funciona o método de Hondt em Portugal?"* e no corpo do tópico detalha a sua dúvida: *"Estou a estudar sistemas eleitorais e não consigo entender como o método de Hondt distribui os mandatos no Parlamento. Alguém pode explicar de forma simples, com exemplos práticos?"* Logo após, outros usuários do fórum começam a responder ao seu tópico. Um usuário especializado em política oferece uma explicação simplificada do método de Hondt, utilizando um exemplo prático com números fictícios para ilustrar como os mandatos são distribuídos. Outro usuário compartilha um link para um vídeo didático que detalha o funcionamento do método de maneira clara e acessível. Um terceiro usuário, com uma visão mais crítica, comenta sobre o impacto do método de Hondt na representação dos partidos menores, destacando as questões de equidade no sistema eleitoral.
 
-[Curious, Maria followed the suggested path. As she approached the first painting, the guide vibrated slightly—a prompt that additional content was available. Holding up the guide, she saw an **overlay** appear on the screen, revealing a time-lapse animation of the artist creating the piece. A small **audio clip** played, explaining the artist’s thought process and influences. Maria found this fascinating; it was as if the artwork was coming to life in front of her.  ]
+Carolina *recebe notificações por e-mail* sobre as novas respostas e começa a interagir com elas. Ela agradece pelas explicações e pede mais detalhes sobre o impacto do método de Hondt nas eleições dos partidos menores. 
 
-[As she continued her tour, Maria **bookmarked** her favorite pieces, leaving notes about what she found intriguing. The system, recognizing her engagement, suggested another exhibit nearby featuring similar themes. Midway through her visit, she received a pop-up asking if she’d like a **short quiz** on the artworks she had explored, offering an interactive way to reflect on what she had learned.  ]
+## Scenario 3:  Fernando Almeida Candidata-se para a Mesa de Voto
+
+Fernando Almeida quer participar como membro da mesa de voto nas próximas eleições, mas não sabe como se inscrever. Ao acessar o site oficial, ele encontra uma seção dedicada ao processo eleitoral e navega até a área *"Como Votar"*, onde descobre um *link específico* para a candidatura à Mesa de Voto. Ao clicar no link, Fernando é *direcionado para um formulário de inscrição*. Ele preenche os seus dados, incluindo *nome completo, e-mail, freguesia e telefone opcional*. Após rever as informações, ele submete a candidatura e *recebe imediatamente uma mensagem de confirmação na tela*: "Obrigado por se candidatar à mesa de voto! A sua freguesia entrará em contacto consigo brevemente." Além disso, um e-mail automático é enviado com detalhes sobre a sua inscrição e informações adicionais sobre os próximos passos.
+Dias depois, Fernando recebe um contacto da sua freguesia por e-mail ou telefone para confirmar a sua disponibilidade e fornecer instruções detalhadas sobre a sua função no dia da eleição. No dia do pleito, ele comparece ao local designado e desempenha o seu papel.
+
+
 
 ---
 
@@ -195,6 +203,15 @@
 
 
 ## C.2. Non-functional requirements
+
+O sistema deve garantir *desempenho rápido*, com *tempos de carregamento inferiores a 3 segundos*. Além disso, *deve suportar até 10.000 usuários simultâneos* sem degradação de desempenho, com operações como pesquisas e carregamento de mapas respondendo em até 2 segundos.Em termos de usabilidade, o site precisa ser *totalmente responsivo*, funcionando bem em *dispositivos móveis, tablets e desktops*. Deve garantir que seja acessível a *usuários com deficiências, incluindo suporte a leitores de tela e navegação por teclado*. A navegação deve ser intuitiva, permitindo que os usuários encontrem informações com o uso de até 3 cliques.
+Todos os dados dos usuários, como e-mails e informações de contacto, devem ser armazenados de forma segura e criptografada. 
+O sistema deve ser escalável, capaz de crescer horizontalmente para suportar aumentos de tráfego, como durante períodos eleitorais. Além disso, deve garantir capacidade de armazenamento para dados futuros, como perfis de deputados e notícias.
+O sistema deve *exibir um logo* enquanto a página está a carregar. Além disso, o sistema deve ser capaz de suportar pelo menos *português e inglês*, com a possibilidade de adicionar mais idiomas no futuro. O sistema também deve ter uma *opção de acessibilidade para pessoas cegas*, com áudio que possa ler os conteúdos apresentados na página.
+A *compatibilidade com diferentes sistemas operacionais de servidor* é essencial, sendo necessário que o sistema funcione em plataformas como Linux e Windows Server. Para ampliar a sua funcionalidade, o sistema deve ser capaz de se integrar com ferramentas externas, como *APIs de notícias*, *mapas interativos* ou redes sociais.
+
+Por fim, o sistema deve ser flexível, permitindo *adaptações para diferentes tipos de eleições ou eventos políticos*, garantindo que possa ser utilizado em uma variedade de contextos sem a necessidade de mudanças significativas na estrutura.
+
 
 
 ---
