@@ -3,7 +3,7 @@ Nielsen Norman Group available at: https://media.nngroup.com/media/articles/atta
 -->
 
 **Evaluator**: Cristiana Rebelo
-**Date**: [DD-MM-AAAA]
+**Date**: [24-02-2025]
 **Product**: [Site da Assembleia]
 
 Severity Scale adopted: [[severity_scale_heuristic_evaluation]]
