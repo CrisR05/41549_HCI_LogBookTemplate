@@ -57,7 +57,4 @@ José é um empresário que reconhece a importância da política para o seu set
 **What concerns or hesitations do they have about new approaches?** 
 - Que seja mais um espaço de opinião polarizada, em vez de uma fonte confiável de informação objetiva
 
-**How do they measure success for completing the task efficiently?** 
-- N/A 
 
---- 
